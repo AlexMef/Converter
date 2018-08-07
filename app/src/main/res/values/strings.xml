@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="enter_text">Enter text</string>
+    <string name="EUR">EUR</string>
+    <string name="USD">USD</string>
+    <string name="UAH">UAH</string>
+    <string name="RUB">RUB</string>
+</resources>

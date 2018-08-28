@@ -49,8 +49,8 @@
     <RadioGroup
         android:id="@+id/radioConvertTo"
         android:layout_width="100dp"
-        android:layout_margin="8dp"
         android:layout_height="match_parent"
+        android:layout_margin="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -90,15 +90,13 @@
         android:id="@+id/convert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="64dp"
         android:text="Convert"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/radioConvertTo"
         app:layout_constraintStart_toEndOf="@+id/radioConvertFrom"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/edText" />
 
     <TextView
         android:id="@+id/result"
@@ -106,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/radioConvertTo"
@@ -117,14 +115,13 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="64dp"
         android:hint="Enter value"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/convert"
         app:layout_constraintEnd_toStartOf="@+id/radioConvertTo"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/radioConvertFrom"
         app:layout_constraintTop_toTopOf="parent" />
 

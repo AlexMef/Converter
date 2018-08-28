@@ -5,4 +5,7 @@
     <string name="USD">USD</string>
     <string name="UAH">UAH</string>
     <string name="RUB">RUB</string>
+    <string name="convert">Convert</string>
+    <string name="enter_value">Enter value</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

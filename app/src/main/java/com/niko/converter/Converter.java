@@ -1,7 +1,5 @@
 package com.niko.converter;
 
-import android.widget.EditText;
-import android.widget.Toast;
 
 public class Converter {
     private int rBtnConvertFrom;
@@ -15,7 +13,6 @@ public class Converter {
     }
 
     public double convert(){
-        double value = 5;
         if (this.rBtnConvertFrom == R.id.rBtnFromEUR && this.rBtnConvertTo == R.id.rBtnToEUR) {
             value = fromEURtoEUR();
         } else if (this.rBtnConvertFrom == R.id.rBtnFromEUR && this.rBtnConvertTo == R.id.rBtnToUSD) {
@@ -49,7 +46,6 @@ public class Converter {
         } else if (this.rBtnConvertFrom == R.id.rBtnFromRUB && this.rBtnConvertTo == R.id.rBtnToRUB) {
             value = fromRUBtoRUB();
         }
-
         return value;
     }
 
